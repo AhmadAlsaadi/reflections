@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+when we use the commad git init we create a fold with a name .git to track the changes that 
+are made to the folder that .git folder reside in.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+it is a smart idea that give the user good control on selecting the content of each commit. 
