@@ -3,4 +3,23 @@ when we use the commad git init we create a fold with a name .git to track the c
 are made to the folder that .git folder reside in.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-it is a smart idea that give the user good control on selecting the content of each commit. 
+it is a middle state between working directory and the repository. using
+git diff   # give us the difference between working directory and staging area.
+git diff --staged  # give us the difference between staging area and repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+it is a smart idea that give the user good control on selecting the content of each commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when we want to experiment with some features.
+when we are planing to make major change to our code.
+
+How do the diagrams help you visualize the branch structure?
+it will help me see which commit will be shown in git log and which ones will be lost.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+it will utilize the point were the branch started to decide on which content will be included in the merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+when there is no possibilty of confusion then automatic merge is time saver but when the merge might break the 
+code then manual merge is a good solution.
